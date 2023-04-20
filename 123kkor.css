@@ -1,0 +1,157 @@
+     h2{
+       text-align: right;
+       margin-right:  35px;
+       text-shadow: 0px 2px 10px #858585;
+
+   }
+   .zagolovok{
+        margin-top: 50px;
+         margin-left: 250px;
+        font-size: 50px;
+
+          text-shadow:  3px 3px 3px #F8CFCC;
+         	border-radius: 15px;
+
+   }
+    .zagolovok2{
+        margin-top: 30px;
+          margin-left: 280px;
+        font-size: 35px;
+        text-shadow:  4px 3px 6px #FFFFFB;
+   }
+    .text {
+      font-size: 23px;
+       	border-radius: 15px;
+
+       margin-left: 110px;
+       margin-right: 110px;
+
+        	border-radius: 15px;
+              background: rgba(255, 204, 204, 0.9);
+    }
+    p {
+    text-indent: 20px; 
+   }
+
+
+.name{ font-size:30px;
+        border: 3px solid rgba(255, 204, 204, 0.9);
+        	border-radius: 20px;
+			position: fixed;
+		   bottom:25px;
+			right:118px;
+            background: rgba(255, 204, 204, 0.6);"
+
+   }
+    .anichkov     {
+                position: fixed;
+           bottom:20px;
+			right:18px;
+             border: 2px solid rgba(255, 204, 204, 0.9);
+        	border-radius: 15px;
+    }
+     .emblema     {
+                position: fixed;
+           bottom:20px;
+			left:18px;
+             border: 7px solid rgba(255, 204, 204, 0.9);
+        	border-radius: 15px;
+    }
+    .emblema img {
+    transition: 1s;
+    display: block;
+   }
+   .emblema img:hover {
+    transform: scale(1.2);
+    }
+     body {
+    background-image: linear-gradient(to bottom, #E2C9C8, #7279A2)
+                
+    }
+
+         #bar {
+    top:1em; left:-53em;
+     margin: 0;
+     position: absolute;
+     transition: left 1s ease-out 0.3s;
+     -webkit-transition: left 1s ease-out 0.3s;
+     -moz-transition: left 1s ease-out 0.3s;
+     -o-transition: left 1s ease-out 0.3s;
+      position: fixed;
+
+    }
+   #bar:hover { left: 0; }
+
+
+
+
+             nav {
+			    margin: 100px 0;
+			     background-image: url(fon1.jpg) ;
+			}
+
+
+			nav ul {
+			    padding:10;
+			    margin:1;
+			    list-style: none;
+			    position: relative;
+			    }
+
+
+			nav ul li {
+			    margin: 2px 0px 0 0;
+			    display:inline-block;
+			     background-image: url(1234567.jpg)  ;
+			    }
+
+
+			nav a {
+			    display:block;
+			    padding:0 10px;
+               color:#FFF;
+			    font-size:27px;
+			    line-height: 57px;
+			    text-decoration:none;
+			}
+
+
+			nav a:hover {
+			    background-color:   rgba(162, 124, 151, 1);
+		}
+       nav ul ul {
+			    display: none;
+			    position: absolute;
+			    top: 100%;
+			}
+
+
+			nav ul li:hover > ul {
+			    display:inherit;
+			}
+
+
+			nav ul ul li {
+			    min-width:200px;
+			    float:none;
+			    display:list-item;
+			    position: relative;
+			}
+
+
+
+.flag {
+     font-size: 18px;
+     bottom:50%;
+       background:  #C6B5BE;
+          color: rgba(173, 111, 204, 1) ;
+	width: 65px;
+	border: thin solid     #9E93CD;
+	right:18px;
+	border-radius: 10px;
+     position: fixed; /* Абсолютное позиционирование */
+      /* Ширина */
+      background-image: url(fon1.jpg) ;
+          color: #fff; /* Цвет текста */
+     text-align: left; /* Выравнивание по центру */
+}
